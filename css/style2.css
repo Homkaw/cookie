@@ -1,0 +1,274 @@
+
+.show-text{
+    max-width: 697px;
+    font-size: 18px;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+
+
+.love-item img{
+    width: 600px;
+    height: 453px;
+}
+
+.love-item-white{
+    padding: 70px 80px
+
+}
+
+
+.zennosti{
+    margin-top: 80px;
+}
+
+
+
+.zens{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 55px;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.zen-title{
+    padding: 10px;
+}
+
+.zen-p{
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.zen img{
+    max-width: 100px;
+}
+
+
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 335px;
+    display: inline-block;
+    vertical-align: top;
+    transition: transform 0.3s;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.cards{
+    text-align: center;
+}
+.card h3, .card p, .card img{
+    text-align:left;
+}
+
+
+.card:hover {
+    transform: translateY(-5px); /* Эффект при наведении */
+}
+
+
+
+
+
+
+.achievements {
+    background-color: #ffffff5b; /* Светлый цвет, напоминающий печенье */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 100px 0;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Игривая шрифт */
+}
+
+.achievements ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achievements li {
+    margin: 15px 0;
+    color: #ffffff; /* Темный цвет текста */
+    font-size: 1.3em;
+    background-color: #5243F4; /* Белый фон для каждого достижения */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.achievements li:hover {
+    transform: translateY(-5px); /* Эффект при наведении */
+}
+
+
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.icon {
+    font-size: 1.5em; /* Размер иконок */
+    margin-right: 10px; /* Отступ между иконкой и текстом */
+}
+
+
+.violet-button {
+    transition: background-color 0.3s, transform 0.2s; /* Плавные переходы */
+}
+
+.violet-button:hover {
+    transform: translateY(-2px); /* Эффект при наведении */
+}
+
+
+
+@media (max-width: 1200px) {
+    .menu{
+        margin-left: 29%;
+    }
+    .main-info {
+        max-width: 65%;
+    }
+
+    .love-item-white {
+        padding: 30px 40px;
+        width: 500px;
+    }
+
+    .love-item img{
+        width: 100%;
+        height: 500px;
+    }
+    .zens{
+        grid-template-columns: repeat(2, 250px);
+        margin-left: 20%;
+    }
+
+
+
+    .order-img{
+        left: -100px;
+    }    
+}
+
+
+@media (max-width: 800px) {
+    .container{
+        max-width: 600px;
+    }
+    .main-info {
+        max-width: 55%;
+    }
+    .main-img{
+        right: -150px;
+    }
+
+    .love-item-white {
+        padding: 10px 20px;
+        width: 500px;
+        font-size: 14px;
+        height: auto;
+    }
+
+    .love-item img{
+        width: 100%;
+        height: 630px;
+    }
+    .zens{
+        margin-left: 5%;
+    }
+
+    .cards{
+        text-align: center;
+    }
+    .card h3, .card p, .card img{
+        text-align:left;
+    }
+
+
+    .order-img{
+        left: -100px;
+    }    
+
+    .order-form {
+        margin-left: 15%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .container{
+        max-width: 600px;
+    }
+    .main-info {
+        max-width: 55%;
+    }
+    .main-img{
+        right: -150px;
+    }
+
+    .love-item-white {
+        padding: 10px 20px;
+        width: 500px;
+        font-size: 14px;
+        height: auto;
+    }
+
+    .love-item img{
+        width: 100%;
+        height: 630px;
+    }
+    .zens{
+        grid-template-columns: repeat(2, 250px);
+        margin-left: 5%;
+    }
+
+    .cards{
+        text-align: center;
+    }
+    .card h3, .card p, .card img{
+        text-align:left;
+    }
+
+
+    .order-img{
+        left: -100px;
+    }    
+
+    .order-form {
+        margin-left: 15%;
+    }
+}
+
+
+
